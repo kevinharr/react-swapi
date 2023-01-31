@@ -16,11 +16,11 @@ const Starships = () => {
 
   return (
     <>
-      <h3>STARSHIPS</h3>
+      {/* <h3>STARSHIPS</h3> */}
       {starships.length ?
 			<>
 			{starships.map(starship =>
-				<div key={starship.index}>
+				<div className="ships" key={starship.index}>
 					<button><Link to="/starship" state={{starship}}>{starship.name}</Link>	</button>	
 				</div>
 				)}

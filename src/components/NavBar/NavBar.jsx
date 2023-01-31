@@ -11,8 +11,8 @@ const NavBar = () => {
 			className="App-logo"
 			alt="logo"
 			/> */}
-			<Link to="/"> STAR WARS </Link>
-			<Link to="/Starships">  STARSHIPS </Link>
+			{/* <Link to="/"> STAR WAR </Link> */}
+			<Link to="/Starships">  STAR WARS STARSHIPS </Link>
     </header>
 
   )
