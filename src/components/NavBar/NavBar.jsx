@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom"
+import "./NavBar.css"
+
 
 const NavBar = () => {
   return (
-    <header>
-			<img
-			src='../images/star-wars-icon-18.jpg.png'
+    <header className="navigation-section">
+			{/* <img
+			src='../src/images/millenniun_falcon.png'
 			style={{ width: "100px", height: "100px"}}
 			className="App-logo"
 			alt="logo"
-			/>
-			<Link to="/Starships">  Starships</Link>
+			/> */}
+			<Link to="/"> STAR WARS </Link>
+			<Link to="/Starships">  STARSHIPS </Link>
     </header>
 
   )

@@ -18,8 +18,8 @@ const StarshipDetails = () => {
     <>
     <h3>Starship Details</h3>
     <button>
-    <h3>Starship Name:  {starshipDetails.name}</h3>
-    <h3>Starship Model: {starshipDetails.model}</h3>
+      <h3>Starship Name:  {starshipDetails.name}</h3>
+      <h3>Starship Model: {starshipDetails.model}</h3>
     <Link to="/">Return to Starship List</Link>
     </button>
     </>

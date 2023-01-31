@@ -1,0 +1,10 @@
+.navigation-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: rgb(230, 206, 206);
+    color: white
+  }
+  
