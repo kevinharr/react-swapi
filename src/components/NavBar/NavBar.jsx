@@ -6,7 +6,7 @@ const NavBar = () => {
 			<img
 			src='../images/star-wars-icon-18.jpg.png'
 			style={{ width: "100px", height: "100px"}}
-			classname="App-logo"
+			className="App-logo"
 			alt="logo"
 			/>
 			<Link to="/Starships">  Starships</Link>
